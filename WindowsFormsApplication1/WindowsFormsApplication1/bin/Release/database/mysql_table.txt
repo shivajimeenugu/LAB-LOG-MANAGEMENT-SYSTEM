@@ -1,0 +1,11 @@
+CREATE TABLE `lablog`.`lablog_table` ( `id` INT(255) NOT NULL AUTO_INCREMENT , `student_name` TEXT NOT NULL , `student_pin` VARCHAR(20) NOT NULL , `system_name` TEXT NOT NULL , `ip` VARCHAR(20) NOT NULL , `reason` TEXT NOT NULL , `period_count` INT(5) NOT NULL , `log_date_and_time` DATETIME NOT NULL , `end_date_and_time` DATETIME NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+<appSettings>
+    <add key="Title" value="Configuration Example"/>
+    <add key="Language" value="CSharp"/>
+    <add key="host" value="localhost"/>
+    <add key="username" value="root"/>
+    <add key="password" value=""/>
+    <add key="database_name" value="lablog"/>
+    <add key="port" value="3306"/>
+  </appSettings>

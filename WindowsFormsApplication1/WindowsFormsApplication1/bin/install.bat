@@ -1,0 +1,2 @@
+%please wait%
+copy ../release /
